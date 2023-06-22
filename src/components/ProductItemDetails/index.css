@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.product-details-success-view {
+  display: flex;
+  flex-direction: column;
+}
+.product-details-container {
+  display: flex;
+  flex-direction: row;
+}
+.product-image {
+  height: 600px;
+  width: 600px;
+  padding: 25px;
+  border-radius: 50px;
+}
+.product {
+  color: #12022f;
+}
+.rating {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 4px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.quantity-container {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+.quantity-controller-button {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+.add-to-cart-btn {
+  height: 40px;
+  width: 150px;
+  border-radius: 8px;
+  border-width: 0px;
+  background-color: #3b82f6;
+  color: #ffffff;
+}
+.rating-container {
+  width: 70px;
+}
